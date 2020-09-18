@@ -9,7 +9,7 @@ h1 {
   padding: 20px;
   font-family: 'Electrolize', sans-serif;
   margin: 0;
-  color: #fff;
+
   font-weight: bold;}
 h2 {
   font-size: 30px; 
@@ -21,25 +21,15 @@ h2 {
 html {
   padding: 0px;
   background-size:170px;
-  background-color: black;
   background-image: url("bg.png");}
 body {
-  margin: 0px;}s
+  margin: 0px;}
 /*------------------HEADER------------------*/
 header {
   background-image: linear-gradient(to right, #040404, #141414, #040404);
-  padding: 0px;
   text-align: center;
   margin: 0px;
   color: #fff;}
-  body {
-    opacity: 1;
-    transition: 1s opacity;
-}
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
 /*------------------SECTIONS------------------*/
 .status{
   margin: 0px;
@@ -128,37 +118,3 @@ footer {
     font-family: 'Electrolize', sans-serif;
     color: rgb(255, 0, 0);
     background-color: #693e3e;}
-/*------------------LOADING------------------*/
-  #loading {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    background-color: #8234db;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border: 10px solid #252427;
-    border-radius: 50%;
-    border-top: 10px solid #8234db;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 700ms linear infinite;
-  }
-  #load-bg {
-    background-color: #8234db;}
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-    #html {
-      display: block; }
-  #loading{
-      display: none;
-  }
