@@ -30,6 +30,14 @@ header {
   text-align: center;
   margin: 0px;
   color: white;}
+  body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
 /*------------------SECTIONS------------------*/
 .status{
   margin: 0px;
