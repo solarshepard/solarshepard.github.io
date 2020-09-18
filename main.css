@@ -20,9 +20,9 @@ h2 {
 html {
   padding: 0px;
   background-size:170px;
-  background-image: url("bg.png");}
+  background-image: url("bgs.png");}
 body {
-  margin: 0px;}
+  margin: 0px;}s
 /*------------------HEADER------------------*/
 header {
   background-image: linear-gradient(to right, #040404, #141414, #040404);
