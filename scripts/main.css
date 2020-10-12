@@ -136,76 +136,25 @@ body {
   background:#0a0a0a;
   border-image-source: linear-gradient(0deg, rgb(63, 24, 155), rgb(93, 30, 151),  rgb(169, 20, 182));
   border-image-slice: 1;}
-#commissions {
+table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   table-layout: fixed;
-  display: inline-block;
-  width: 100%;}
-#commissions td, #commissions th {
+  display: flex;
+  width: auto;}
+tbody {
+  display: table;
+  width: 100%
+}
+table td, table th {
   border: 1px solid #000000;
   padding: 8px;}
-#commissions tr{background-color: #303030;
-color: #fff}
-#commissions tr:hover {background-color: #303030;}
-#commissions th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  text-decoration: bold;
-  background-color: #161616;
-  color: white;}
-#trades {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  table-layout: fixed;
-  display: inline-block;
-  width: 100%;} 
-#trades td, #trades th {
-  border: 1px solid #000000;
-  padding: 8px;}
-#trades tr{background-color: #303030;
-  color: #fff}
-#trades tr:hover {background-color: #303030;}
-#trades th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  text-decoration: bold;
-  background-color: #161616;
-  color: white;}
-#other {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  table-layout: fixed;
-  display: inline-block;
-  width: 100%;}
-#other td, #other th {
-  border: 1px solid #000000;
-  padding: 8px;}
-#other tr{background-color: #303030;
-  color: #fff;}
-#other tr:hover {background-color: #303030;}
-#other th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  text-decoration: bold;
-  background-color: #161616;
-  color: white;}
-#waiting {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  table-layout: fixed;
-  display: inline-block;
-  width: 100%;}
-#waiting td, #waiting th {
-  border: 1px solid #000000;
-  padding: 8px;}
-#waiting tr{background-color: #303030;
-  color: #fff;}
-#waiting tr:hover {background-color: #303030;}
-#waiting th {
+table tr{background-color: #303030;
+color: #fff;
+width: 100%;
+}
+table tr:hover {background-color: #303030;}
+table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
