@@ -1,50 +1,41 @@
-
+@keyframes fadeInAnimation { 
+  0% { opacity: 0;} 
+  100% { opacity: 1;}}
 /*------------------HTML------------------*/
 #html {
   padding: 0px;
   margin: 0px;
- 
   display: block;}
-/* width */
-::-webkit-scrollbar {
-  width: 0px;
-}
-.element::-webkit-scrollbar { width: 0 !important }
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.2);
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(231, 4, 4); 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
-/*------------------PAGE------------------*/
 .page{
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;} 
-  @keyframes fadeInAnimation { 
-    0% { opacity: 0;} 
-    100% { opacity: 1;}}
+::-webkit-scrollbar {
+  width: 0px;}
+.element::-webkit-scrollbar { 
+  width: 0 !important }
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);}
+::-webkit-scrollbar-thumb {
+  width: 0px;}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+hr {
+  border: 0;
+  height: 1px;
+  background-image: 
+    linear-gradient(to right, 
+  rgba(0, 0, 0, 0), 
+  rgba(151, 151, 151, 0.75),
+  rgba(0, 0, 0, 0));}
 /*------------------HEADER------------------*/
 header {
   background-color: #0a0a0a;
   text-align: center;
-  
   padding-bottom: 0px;
   margin: 0px;
   margin-bottom: 20px;
   color: #fff;}
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(151, 151, 151, 0.75), rgba(0, 0, 0, 0));}
 /*------------------NAVIGATION------------------*/
 nav {
   overflow: hidden;
@@ -97,7 +88,13 @@ body {
   margin: 0px;
   background-size:120px;
   background-image: url("/img/bg.png");}
-/*------------------SECTIONS------------------*/
+.column {
+  text-align: center;
+  width: 100%;}
+.row:after {
+  content: center;
+  display: table;
+  clear: both;}
 .container {
   display: block ;
   width: 100%}
@@ -134,7 +131,6 @@ body {
   justify-content: space-between;
   display: block;
   box-sizing:border-box;}
-
 .box {
   color: #ffffff;
   background:#0a0a0a;
@@ -217,7 +213,7 @@ color: #fff}
   background-color: #161616;
   color: white;}
 /*------------------FOOTER------------------*/
-.footer-box {
+footer{
   padding: 20px;
   margin-top: 20px;
   text-decoration: #fff;
@@ -505,11 +501,11 @@ h1 {
   padding: 20px;
   text-align: left;}
  h2 {
-  font-size: 0px;}
+  font-size: 15px;}
 h3 {
   font-size: 15px;}
 p {
-  font-size: 15px;}
+  font-size: 13px;}
 nav li {
   text-align: center;
   width: 100%;
